@@ -1,0 +1,20 @@
+img {
+    height: 320px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border-width: 2px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+
+body {
+    background-color: aqua;
+}
